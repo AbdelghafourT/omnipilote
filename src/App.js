@@ -13,7 +13,7 @@ function App() {
         {/* <div className="auth-wrapper">
           <div className="auth-inner"> */}
             <Routes>
-              <Route path="/" element={<Login />} />
+              <Route path="/omnipilote" element={<Login />} />
               {/* Remove the following line if SearchForm is not defined */}
               {/* <Route path="/searchForm" element={<SearchForm />} /> */}
               <Route path="/categoryPage" element={<CategoryPage />} />
