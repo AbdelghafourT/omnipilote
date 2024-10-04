@@ -1,10 +1,12 @@
 import React from 'react'
 import Header from './Header'
+import { useNavigate } from 'react-router-dom'
 export default function CategoryPage() {
+  const navigation =useNavigate()
   return (
     <div className="container-fluid ">
       <div class="d-flex justify-content-end"  >
-      <button type="button" className="btn  " onClick={()=>("/omnipilote")} style={{
+      <button type="button" className="btn  " onClick={()=>navigation("/omnipilote")} style={{
         backgroundColor:"#70330a",
         color:"white",
         margin:"15px",
