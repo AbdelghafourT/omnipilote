@@ -4,8 +4,7 @@ export default function CategoryPage() {
   return (
     <div className="container-fluid ">
       <div class="d-flex justify-content-end"  >
-
-      <button type="button" className="btn  " style={{
+      <button type="button" className="btn  " onClick={()=>("/omnipilote")} style={{
         backgroundColor:"#70330a",
         color:"white",
         margin:"15px",
