@@ -16,7 +16,7 @@ function App() {
               <Route path="/omnipilote" element={<Login />} />
               {/* Remove the following line if SearchForm is not defined */}
               {/* <Route path="/searchForm" element={<SearchForm />} /> */}
-              <Route path="/categoryPage" element={<CategoryPage />} />
+              <Route path="categoryPage" element={<CategoryPage />} />
             </Routes>
           {/* </div>
         </div> */}
